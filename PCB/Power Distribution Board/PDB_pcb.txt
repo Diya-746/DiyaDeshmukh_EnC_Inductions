@@ -1,0 +1,202 @@
+Info: Processing symbol 'F1:Fuse:Fuse_Blade_Mini_directSolder'.
+Info: Processing symbol 'J3:CustomPower:Buck20A'.
+Info: Processing symbol 'F3:Fuse:Fuse_Blade_Mini_directSolder'.
+Info: Processing symbol 'F4:Fuse:Fuse_Blade_Mini_directSolder'.
+Info: Processing symbol 'J4:TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm'.
+Info: Processing symbol 'F2:Fuse:Fuse_Blade_Mini_directSolder'.
+Info: Processing symbol 'J2:Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical'.
+Info: Processing symbol 'J1:Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical'.
+Info: Processing symbol 'J5:CustomPower:Buck5A'.
+Info: Processing symbol 'J6:TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm'.
+Info: Processing symbol 'J7:TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm'.
+Info: Processing symbol 'J8:TerminalBlock:TerminalBlock_bornier-2_P5.08mm'.
+Info: Processing symbol 'J9:TerminalBlock:TerminalBlock_bornier-2_P5.08mm'.
+Info: Processing symbol 'J10:TerminalBlock:TerminalBlock_bornier-2_P5.08mm'.
+Info: Processing symbol 'J11:TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm'.
+Info: Processing symbol 'J12:TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm'.
+Info: Processing symbol 'J13:TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm'.
+Add net Net-(J1-Pin_1).
+Connected F1 pin 1 to Net-(J1-Pin_1).
+Add net /22V_BUS.
+Connected F1 pin 2 to /22V_BUS.
+Added F2 (footprint 'Fuse:Fuse_Blade_Mini_directSolder').
+Changed REF** reference designator to F2.
+Changed F2 value from Fuse_Blade_Mini_directSolder to 20A.
+Updated F2 symbol association from  to /25374059-9a93-4cb9-b516-bbdf6e4a5ef4.
+Updated F2 fields.
+Updated F2 sheetname to '/'.
+Updated F2 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated F2 footprint filters to '*Fuse*'.
+Add net Net-(J10-Pin_1).
+Connected F2 pin 2 to Net-(J10-Pin_1).
+Connected F2 pin 1 to /22V_BUS.
+Added F3 (footprint 'Fuse:Fuse_Blade_Mini_directSolder').
+Changed REF** reference designator to F3.
+Changed F3 value from Fuse_Blade_Mini_directSolder to 15A.
+Updated F3 symbol association from  to /8d7cf3bd-b545-4914-aaf1-608be8de218e.
+Updated F3 fields.
+Updated F3 sheetname to '/'.
+Updated F3 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated F3 footprint filters to '*Fuse*'.
+Add net Net-(J3-Pin_3).
+Connected F3 pin 1 to Net-(J3-Pin_3).
+Add net /11_BUS.
+Connected F3 pin 2 to /11_BUS.
+Added F4 (footprint 'Fuse:Fuse_Blade_Mini_directSolder').
+Changed REF** reference designator to F4.
+Changed F4 value from Fuse_Blade_Mini_directSolder to 7.5A.
+Updated F4 symbol association from  to /96637365-b1b5-4cf7-9a52-f95d248ebda4.
+Updated F4 fields.
+Updated F4 sheetname to '/'.
+Updated F4 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated F4 footprint filters to '*Fuse*'.
+Add net /5V_BUS.
+Connected F4 pin 2 to /5V_BUS.
+Add net Net-(J5-Pin_3).
+Connected F4 pin 1 to Net-(J5-Pin_3).
+Added J1 (footprint 'Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical').
+Changed REF** reference designator to J1.
+Changed J1 value from AMASS_XT60-M_1x02_P7.20mm_Vertical to BAT1.
+Updated J1 symbol association from  to /400ba2e4-999d-43be-95f7-4fc735ac62ba.
+Updated J1 fields.
+Updated J1 sheetname to '/'.
+Updated J1 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J1 footprint filters to 'Connector*:*_1x??_*'.
+Add net GND.
+Connected J1 pin 2 to GND.
+Connected J1 pin 1 to Net-(J1-Pin_1).
+Added J2 (footprint 'Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical').
+Changed REF** reference designator to J2.
+Changed J2 value from AMASS_XT60-M_1x02_P7.20mm_Vertical to BAT2.
+Updated J2 symbol association from  to /8800701a-60ab-4f2e-a4ec-20686578e7c2.
+Updated J2 fields.
+Updated J2 sheetname to '/'.
+Updated J2 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J2 footprint filters to 'Connector*:*_1x??_*'.
+Connected J2 pin 2 to GND.
+Connected J2 pin 1 to Net-(J1-Pin_1).
+Added J3 (footprint 'CustomPower:Buck20A').
+Changed REF** reference designator to J3.
+Changed J3 value from Buck20A to Buck_11V.
+Updated J3 symbol association from  to /b3edf8cb-a90d-4430-9c7e-ff79fda3557d.
+Updated J3 fields.
+Updated J3 sheetname to '/'.
+Updated J3 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J3 footprint filters to 'Connector*:*_1x??_*'.
+Connected J3 pin 3 to Net-(J3-Pin_3).
+Connected J3 pin 4 to GND.
+Connected J3 pin 1 to /22V_BUS.
+Connected J3 pin 2 to GND.
+Added J4 (footprint 'TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm').
+Changed REF** reference designator to J4.
+Changed J4 value from TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm to SERVO1.
+Updated J4 symbol association from  to /6c0a9d5b-a208-461b-9201-cd4929cc9dfd.
+Updated J4 fields.
+Updated J4 sheetname to '/'.
+Updated J4 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J4 footprint filters to 'Connector*:*_1x??_*'.
+Connected J4 pin 1 to /5V_BUS.
+Connected J4 pin 2 to GND.
+Added J5 (footprint 'CustomPower:Buck5A').
+Changed REF** reference designator to J5.
+Changed J5 value from Buck5A to Buck_5V.
+Updated J5 symbol association from  to /2359941b-107d-418a-b4ee-fadd22f2211e.
+Updated J5 fields.
+Updated J5 sheetname to '/'.
+Updated J5 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J5 footprint filters to 'Connector*:*_1x??_*'.
+Connected J5 pin 3 to Net-(J5-Pin_3).
+Connected J5 pin 1 to /22V_BUS.
+Connected J5 pin 4 to GND.
+Connected J5 pin 2 to GND.
+Added F1 (footprint 'Fuse:Fuse_Blade_Mini_directSolder').
+Added J6 (footprint 'TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm').
+Changed REF** reference designator to J6.
+Changed J6 value from TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm to SERVO2.
+Updated J6 symbol association from  to /1127d517-7a22-4702-bb01-32dde85756c7.
+Updated J6 fields.
+Updated J6 sheetname to '/'.
+Updated J6 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J6 footprint filters to 'Connector*:*_1x??_*'.
+Connected J6 pin 2 to GND.
+Connected J6 pin 1 to /5V_BUS.
+Changed REF** reference designator to F1.
+Added J7 (footprint 'TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm').
+Changed REF** reference designator to J7.
+Changed J7 value from TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm to SERVO3.
+Updated J7 symbol association from  to /d68a37f9-13c7-4cb1-8dc5-1f8cdcd6368d.
+Updated J7 fields.
+Updated J7 sheetname to '/'.
+Updated J7 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J7 footprint filters to 'Connector*:*_1x??_*'.
+Connected J7 pin 2 to GND.
+Connected J7 pin 1 to /5V_BUS.
+Changed F1 value from Fuse_Blade_Mini_directSolder to 30A.
+Added J8 (footprint 'TerminalBlock:TerminalBlock_bornier-2_P5.08mm').
+Changed REF** reference designator to J8.
+Changed J8 value from TerminalBlock_bornier-2_P5.08mm to MOTOR1.
+Updated J8 symbol association from  to /f435bbc8-6dd2-4af0-9bc8-39777c58e415.
+Updated J8 fields.
+Updated J8 sheetname to '/'.
+Updated J8 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J8 footprint filters to 'Connector*:*_1x??_*'.
+Connected J8 pin 2 to GND.
+Connected J8 pin 1 to Net-(J10-Pin_1).
+Updated F1 symbol association from  to /24166074-df56-4387-bfc6-23de60efd3ef.
+Added J9 (footprint 'TerminalBlock:TerminalBlock_bornier-2_P5.08mm').
+Changed REF** reference designator to J9.
+Changed J9 value from TerminalBlock_bornier-2_P5.08mm to MOTOR2.
+Updated J9 symbol association from  to /2fc4a45c-287a-4945-8353-0a97b2a63f57.
+Updated J9 fields.
+Updated J9 sheetname to '/'.
+Updated J9 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J9 footprint filters to 'Connector*:*_1x??_*'.
+Connected J9 pin 2 to GND.
+Connected J9 pin 1 to Net-(J10-Pin_1).
+Updated F1 fields.
+Added J10 (footprint 'TerminalBlock:TerminalBlock_bornier-2_P5.08mm').
+Changed REF** reference designator to J10.
+Changed J10 value from TerminalBlock_bornier-2_P5.08mm to MOTOR3.
+Updated J10 symbol association from  to /a0c7dcba-4bf4-4c09-b70d-76f5a4aca2e1.
+Updated J10 fields.
+Updated J10 sheetname to '/'.
+Updated J10 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J10 footprint filters to 'Connector*:*_1x??_*'.
+Connected J10 pin 2 to GND.
+Connected J10 pin 1 to Net-(J10-Pin_1).
+Updated F1 sheetname to '/'.
+Added J11 (footprint 'TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm').
+Changed REF** reference designator to J11.
+Changed J11 value from TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm to LMOTOR1.
+Updated J11 symbol association from  to /3f997345-e86b-4c13-933b-bbc6e9857a99.
+Updated J11 fields.
+Updated J11 sheetname to '/'.
+Updated J11 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J11 footprint filters to 'Connector*:*_1x??_*'.
+Connected J11 pin 1 to /11_BUS.
+Connected J11 pin 2 to GND.
+Updated F1 sheetfile to 'Power Distribution Board.kicad_sch'.
+Added J12 (footprint 'TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm').
+Changed REF** reference designator to J12.
+Changed J12 value from TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm to LMOTOR2.
+Updated J12 symbol association from  to /264cda85-8215-4824-a79c-4ae1605d3fbb.
+Updated J12 fields.
+Updated J12 sheetname to '/'.
+Updated J12 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J12 footprint filters to 'Connector*:*_1x??_*'.
+Connected J12 pin 1 to /11_BUS.
+Connected J12 pin 2 to GND.
+Updated F1 footprint filters to '*Fuse*'.
+Added J13 (footprint 'TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm').
+Changed REF** reference designator to J13.
+Changed J13 value from TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm to LMOTOR3.
+Updated J13 symbol association from  to /e9874898-f1f3-45a9-879a-17cdfccd85ea.
+Updated J13 fields.
+Updated J13 sheetname to '/'.
+Updated J13 sheetfile to 'Power Distribution Board.kicad_sch'.
+Updated J13 footprint filters to 'Connector*:*_1x??_*'.
+Connected J13 pin 2 to GND.
+Connected J13 pin 1 to /11_BUS.
+
+
+Info: Total warnings: 0, errors: 0.
