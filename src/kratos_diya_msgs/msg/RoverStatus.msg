@@ -1,0 +1,3 @@
+float32 battery_level
+string rover_mode
+bool emergency_stop
